@@ -27,7 +27,7 @@ read target
 echo "input file kamu :"
 read file 
 echo "tunggu bentar ya tod w lagi apluod scrpit lu...."
-curl -T /storage/emulated/0/$file $target
+ curl -T /storage/emulated/0/$file $target
 echo
 echo "==================================="
 echo " Tools ini gratis"
