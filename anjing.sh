@@ -28,7 +28,7 @@ echo "input file kamu :"
 read file 
 echo "tunggu bentar ya tod w lagi apluod scrpit lu...."
  curl -T /storage/emulated/0/$file $target
-echo
+echo "eror"
 echo "==================================="
 echo " Tools ini gratis"
 echo " Who MHw and MR.WR.py"
