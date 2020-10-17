@@ -9,7 +9,7 @@ echo "//////////////////////////////////////////////////////////////////////////
 
 echo "selamat datang kaka,siapa nama kaka?" #tulisan keluar
 read nick #membaca tulisan masuk
- clear
+clear
  echo "##########"
   echo "##########         ini toool milik bersama                                                       ######"
 
@@ -27,7 +27,7 @@ read target #target
 echo "input file kamu :"
 read file #file
 echo "tunggu bentar ya tod w lagi apluod scrpit lu...."
-curl -T /storage/emulated/0/$script $target
+curl -T /storage/emulated/0/$file $target
 echo "==================================="
 echo " Tools ini gratis"
 echo " Who MHw and MR.WR.py"
